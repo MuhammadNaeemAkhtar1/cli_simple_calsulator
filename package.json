@@ -1,0 +1,24 @@
+{
+  "name": "code-with-naeem-akhtar-simple-cli-calculator",
+  "version": "1.0.1",
+  "description": "\"Simple CLI Calculator\"",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "code-with-naeem-akhtar-simple-cli-calculator": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Naeem Akhtar",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
